@@ -1,0 +1,124 @@
+.dashboardPage {
+	min-height: 100vh;
+	padding: 0 15px;
+}
+
+.homePageCoursesTitle {
+	margin: 30px 0 20px 0;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: var(--color-6Z-gr45-3);
+	text-shadow: 2px 2px 4px #7f8287;
+}
+
+.titleBorder {
+	background: #0259eb;
+	border-radius: 16px;
+	height: 3px;
+	left: 152px;
+	margin-top: 8px;
+	top: 1626px;
+	width: 48px;
+}
+
+.profliePhoto {
+	width: 250px;
+	height: 250px;
+	/* border-radius: 50%; */
+}
+
+.studentInfo {
+	display: flex;
+	margin-top: 20px;
+}
+
+.studentInfo div {
+	margin-left: 20px;
+}
+
+.studentInfoTitle {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 31px;
+}
+
+/* ................courseBox................ */
+.courseBox {
+	display: flex;
+	padding: 20px 0px;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+}
+
+.courseBox:first-of-type {
+	padding-top: 0px;
+}
+
+.courseImg {
+	min-width: 250px;
+	max-width: 250px;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+	border-radius: 10px;
+}
+
+.courseDetails {
+	margin: 0 30px;
+	width: 90%;
+}
+
+.courseTitle {
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	/* margin-bottom: 10px; */
+}
+
+.instructorName {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.aboutCourse {
+	font-size: 20px;
+}
+
+/* ------------M-web----------- */
+@media screen and (max-width: 1000px) {
+	.courseBox {
+		display: block;
+		text-align: center;
+	}
+
+	.courseTitle {
+		font-size: 35px;
+		margin-bottom: 15px;
+		line-height: 45px;
+	}
+
+	.courseDetails {
+		margin: unset;
+	}
+
+	.aboutCourse {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.courseImg {
+		min-width: 90%;
+		max-width: 90%;
+	}
+
+	.courseTitle {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.aboutCourse {
+		font-size: 15px;
+	}
+}

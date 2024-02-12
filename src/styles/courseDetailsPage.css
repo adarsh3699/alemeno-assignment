@@ -1,0 +1,78 @@
+.courseDetailsPage {
+	min-height: 100vh;
+	padding: 0 15px;
+}
+
+.courseDetailsBox {
+	display: flex;
+	margin: 50px 20px;
+}
+
+/* ...................left Box................. */
+.courseDetailsBoxLeft {
+	width: 50%;
+}
+
+.courseDetailImage {
+	width: 95%;
+	border-radius: 10px;
+}
+
+/* ...................Right Box................. */
+
+.courseDetailsBoxRight {
+	width: 50%;
+}
+
+.courseTypeShare {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	align-items: center;
+	/* background: red; */
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.openCourseTitle {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.openCourseDesc {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.openCourseDuration,
+.openCourseSchedule,
+.openCourseLocation,
+.openCourseSyllabus {
+	margin-bottom: 10px;
+}
+/* ...................M-Web................. */
+@media screen and (max-width: 1000px) {
+	.courseDetailsBox {
+		display: inline;
+		/* margin: 20px; */
+	}
+
+	.courseDetailsBoxLeft {
+		width: unset;
+		text-align: center;
+	}
+
+	.courseDetailsBoxRight {
+		width: unset;
+	}
+
+	.courseTypeShare {
+		width: unset;
+	}
+
+	.youtubeVideoIframe {
+		width: 100%;
+	}
+}
